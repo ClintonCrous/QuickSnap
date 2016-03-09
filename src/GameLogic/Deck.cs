@@ -56,7 +56,7 @@ namespace CardGames.GameLogic
 		{
 			for (int i = 0; i < 52; i++)
 				{
-					if(_card[i].FaceUp) _cards[i].TurnOver();
+					if(_cards[i].FaceUp) _cards[i].TurnOver();
 				}
 			Random rnd = new Random();
 			
