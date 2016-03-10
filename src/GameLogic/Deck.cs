@@ -56,7 +56,11 @@ namespace CardGames.GameLogic
 		{
 			for (int i = 0; i < 52; i++)
 				{
+<<<<<<< HEAD
 					if(_cards[i].FaceUp) _cards[i].TurnOver();
+=======
+					if(_card[i].FaceUp) _cards[i].TurnOver();
+>>>>>>> add-new-font
 				}
 			Random rnd = new Random();
 			
