@@ -57,7 +57,7 @@ namespace CardGames
 			SwinGame.RefreshScreen(60);
 		}
 
-		/// <summary>
+		/// <summary> //yada
 		/// Updates the game -- it should flip the cards itself once started!
 		/// </summary>
 		/// <param name="myGame">The game to be updated...</param>
